@@ -68,7 +68,7 @@
         <OutArgument x:TypeArguments="x:String">[keyword]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">technoverts</InArgument>
+        <InArgument x:TypeArguments="x:String">technovert</InArgument>
       </Assign.Value>
     </Assign>
     <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="485,424" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="[&quot;https://twitter.com/search?q=%23&quot;+keyword+&quot;&amp;src=typed_query&quot;]">
